@@ -1,0 +1,91 @@
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE, #FFF);
+    
+     /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    }
+
+    button:hover,
+button:focus {
+    background: var(--OCEAN, #404BBF);
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+.logo{
+        color: var(--NAVY-BLUE, #2E2F42);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+
+.logo-span{
+    color: var(--IRIS, #4D5AE5);
+}
+
+.menu-link{
+        color: var(--NAVY-BLUE, #2E2F42);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus{
+    color: var(--OCEAN, #404BBF);
+}
+
+.address-link{
+    color: var(--SLATE, #434455);
+    
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--OCEAN, #404BBF);
+}
+
+/* Main */
+
+/* Section- Effective Solutions */
+.first-section{
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.first-title{
+    color: var(--WHITE, #FFF);
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+}
+
