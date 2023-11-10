@@ -130,6 +130,16 @@ body{
         letter-spacing: 0.02em;
 }
 
+.second-logo {
+    color: var(--IRIS, #4D5AE5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 .second-logo-span{
     color: var(--CLOUD, #F4F4FD);
         font-family: 'Raleway', sans-serif;
@@ -138,10 +148,6 @@ body{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-}
-
-.second-logo{
-    color: var(--IRIS, #4D5AE5);
 }
 
 footer{
