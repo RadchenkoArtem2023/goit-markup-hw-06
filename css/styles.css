@@ -89,3 +89,64 @@ body{
         letter-spacing: 0.02em;
 }
 
+.third-title{
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.feature-item-text{
+    color: var(--SLATE, #434455);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.third-section{
+    background: var(--CLOUD, #F4F4FD);
+}
+
+.second-title{
+    color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em  ;
+        text-transform: capitalize;
+}
+
+.portfolio-item-text{
+    color: var(--SLATE, #434455);
+    
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.second-logo{
+    color: var(--CLOUD, #F4F4FD);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03px;
+        text-transform: uppercase;
+}
+
+.second-logo-span{
+    color: var(--IRIS, #4D5AE5);
+}
+
+footer{
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.footer-text{
+    color: var(--CLOUD, #F4F4FD);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
