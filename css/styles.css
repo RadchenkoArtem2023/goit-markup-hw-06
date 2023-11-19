@@ -82,7 +82,7 @@ body{
     gap: 40px;
 }
 
-.page-header-container {
+.page-header {
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -193,7 +193,7 @@ body{
     gap: 8px;
     
 }
-.hidden-title{
+.visually-hidden  {
     position: absolute;
         width: 1px;
         height: 1px;
@@ -215,6 +215,7 @@ body{
         line-height: 1.2;
         letter-spacing: 0.02em;
         margin-bottom: 8px;
+        text-align: center;
 }
 
 .feature-item-text{
@@ -243,7 +244,7 @@ body{
 
 .team {
     display: flex;
-    gap: 24px;
+    column-gap: 24px;
 }
 .team-item {
     display: flex;
@@ -252,6 +253,9 @@ body{
     flex-direction: column;
     align-items: center;
     border-radius: 0px 0px 4px 4px;
+}
+.team-item-text {
+    align-items: center;
 }
 .our-team-container {
 padding: 32px 0;
@@ -268,6 +272,12 @@ text-align: start;
 .portfolio-item {
     margin-left: 0px;
     width: calc((100% - 48px)/3);
+    padding: 32px 16px
+}
+.portfolio-container {
+    padding: 32px 16px;
+    text-align: start;
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-item-text{
