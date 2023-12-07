@@ -549,7 +549,8 @@ color: #ffffff;
         letter-spacing: 0.04em;
         position: relative;
         cursor: pointer;
-        border: none;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -604,7 +605,7 @@ color: #ffffff;
     right: 24px;
     padding: 0;
     background-color: transparent;
-    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
         justify-content: center;
         align-items: center;
@@ -616,6 +617,7 @@ color: #ffffff;
         stroke: #2E2F42;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
         transition: stroke 250ms linear;
+        cursor: pointer;
 }
 
 .modal-close-btn-icon {
@@ -640,7 +642,7 @@ color: #ffffff;
 }
 
 .review-form-field-wrapper {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     
 }
 .review-form-field-label {
@@ -679,6 +681,7 @@ color: #ffffff;
     transform: translateY(-50%);
     stroke: #2E2F42;
     transition: stroke 250ms linear;
+    fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-input:focus + .review-form-input-icon {
