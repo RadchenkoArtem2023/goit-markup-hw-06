@@ -617,7 +617,6 @@ color: #ffffff;
         line-height: 0;
         stroke: #2E2F42;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        transition: stroke 250ms linear;
         cursor: pointer;
 }
 
@@ -647,6 +646,11 @@ color: #ffffff;
     margin-bottom: 8px;
     
 }
+
+.review-form-input-wrapper {
+    margin-bottom: 16px;
+}
+
 .review-form-field-label {
     display: block;
     color: var(--LIGHT-SLATE, #8E8F99);
