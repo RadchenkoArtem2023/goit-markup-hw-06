@@ -691,6 +691,9 @@ color: #ffffff;
     stroke: #4D5AE5;
 }
 
+.review-form-textarea-wrapper {
+    margin-bottom: 16px;
+}
 .review-form-comment {
     
         font-size: 12px;
