@@ -480,10 +480,6 @@ body {
     text-transform: uppercase;
   }
 
-  /* .page-footer {
-            display: flex;
-        } */
-
   footer {
     background: var(--NAVY-BLUE, #2e2f42);
     padding: 96px 0;
